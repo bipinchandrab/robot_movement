@@ -81,7 +81,7 @@ def left_limit():
 
 
 def left_rotation():
-    # This function rotates the robot 90 deg counter-clockwise
+    # This function rotates the robot 90 deg counter-clockwise.
     global z
     if z == 'NORTH':
         z = 'WEST'
@@ -94,7 +94,7 @@ def left_rotation():
 
 
 def right_rotation():
-    # This function rotates the robot 90 deg clockwise
+    # This function rotates the robot 90 deg clockwise.
     global z
     if z == 'NORTH':
         z = 'EAST'

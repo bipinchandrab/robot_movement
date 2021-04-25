@@ -44,5 +44,31 @@ def taking_input_from_user():
         exit()
 
 
+def moving_robot():
+    # This function can move and rotate the robot w.r.t the input given
+    global x_coordinate
+    global y_coordinate
+    global z
+    global final_position
+    for next_move in directions:  # looping through the directions so that we can calculate each step
+        if next_move == 'MOVE' and z == 'NORTH':
+            y_coordinate += 1
+        elif next_move == 'MOVE' and z == 'EAST':
+            x_coordinate += 1
+        elif next_move == 'MOVE' and z == 'SOUTH':
+            y_coordinate -= 1
+        elif next_move == 'MOVE' and z == 'WEST':
+            x_coordinate -= 1
+        elif next_move == 'LEFT':
+            pass
+        elif next_move == 'RIGHT':
+            pass
+
+    final_position.append(x_coordinate)
+    final_position.append(y_coordinate)
+    final_position.append(z)
+
+
 if __name__ == "__main__":
     taking_input_from_user()
+    moving_robot()

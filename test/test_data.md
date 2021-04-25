@@ -1,6 +1,7 @@
 # Manual Test Data 
 Input and Output:
 ###Test-1
+
     PLACE 0,0,NORTH
     MOVE
     LEFT

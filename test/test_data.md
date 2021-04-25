@@ -11,11 +11,13 @@ Input and Output:
 Output: `0,1,NORTH`
 
 ###Test-2
+
     PLACE 4,5 EAST
 
 Output: `Re-Run the program and input the values in Correct Format`
 
 ###Test-3
+
     PLACE 0,0 NORTH
     MOVE
     MOVE
@@ -32,6 +34,7 @@ Output: `Re-Run the program and input the values in Correct Format`
 Output: `0,4,WEST`
 
 ###Test-4
+
     PLACE 3,2 NORTH
     EAST
     MOVE
@@ -42,9 +45,11 @@ Output: `0,4,WEST`
     PLACE 1,1,EAST
     MOVE
     REPORT
+    
 Output: `2,1,EAST`
 
 ###Test-5
+
     PLACE 0,4 EAST
     MOVE
     MOVE
@@ -57,6 +62,7 @@ Output: `2,1,EAST`
 Output: `1,4,WEST`
 
 ###Test-6
+
     PLACE 4,4 NORTH
     MOVE
     LEFT

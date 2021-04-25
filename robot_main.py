@@ -60,9 +60,9 @@ def moving_robot():
         elif next_move == 'MOVE' and z == 'WEST':
             x_coordinate -= 1
         elif next_move == 'LEFT':
-            pass
+            continue
         elif next_move == 'RIGHT':
-            pass
+            continue
 
     final_position.append(x_coordinate)
     final_position.append(y_coordinate)
